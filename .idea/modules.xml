@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidProject.iml" filepath="$PROJECT_DIR$/AndroidProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android_Module/Android_Module.iml" filepath="$PROJECT_DIR$/Android_Module/Android_Module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library_AutoLayout/Library_AutoLayout.iml" filepath="$PROJECT_DIR$/Library_AutoLayout/Library_AutoLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library_Frame/Library_Frame.iml" filepath="$PROJECT_DIR$/Library_Frame/Library_Frame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library_GreenDao/Library_GreenDao.iml" filepath="$PROJECT_DIR$/Library_GreenDao/Library_GreenDao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library_LitePal/Library_LitePal.iml" filepath="$PROJECT_DIR$/Library_LitePal/Library_LitePal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library_MVP/Library_MVP.iml" filepath="$PROJECT_DIR$/Library_MVP/Library_MVP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library_OkHttp/Library_OkHttp.iml" filepath="$PROJECT_DIR$/Library_OkHttp/Library_OkHttp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library_OrmLite/Library_OrmLite.iml" filepath="$PROJECT_DIR$/Library_OrmLite/Library_OrmLite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library_PullRefresh/Library_PullRefresh.iml" filepath="$PROJECT_DIR$/Library_PullRefresh/Library_PullRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library_Retrofit/Library_Retrofit.iml" filepath="$PROJECT_DIR$/Library_Retrofit/Library_Retrofit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library_RxJava/Library_RxJava.iml" filepath="$PROJECT_DIR$/Library_RxJava/Library_RxJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Library_Volley/Library_Volley.iml" filepath="$PROJECT_DIR$/Library_Volley/Library_Volley.iml" />
+    </modules>
+  </component>
+</project>

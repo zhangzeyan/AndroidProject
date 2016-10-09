@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yuechaoze.module">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+    <!-- 网络 -->
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <!-- 手机配置 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 手机移动网络 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".frame.FrameActivity" />
+        <activity android:name=".frame.mvc.control.MVCActivity" />
+        <activity android:name=".frame.mvp.view.MVPActivity" />
+        <activity android:name=".frame.mvvm.view.MVVMActivity" />
+        <activity android:name=".frame.mvvm.view.MVVMListActivity" />
+        <activity android:name=".request.RequestActivity" />
+        <activity android:name=".request.okhttp.activity.OkhttpActivity" />
+        <activity android:name=".request.retrofit.activity.RetrofitActivity" />
+        <activity android:name=".request.asynchttp.activity.AsyncHttpActivity" />
+        <activity android:name=".request.volley.activity.VolleyActivity" />
+    </application>
+
+</manifest>

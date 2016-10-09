@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ff00"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/item_style"
+        android:onClick="asynchttpClick"
+        android:text="asynchttp" />
+
+    <TextView
+        style="@style/item_style"
+        android:onClick="okhttpClick"
+        android:text="okhttp" />
+
+
+    <TextView
+        style="@style/item_style"
+        android:onClick="retrofitClick"
+        android:text="retrofit" />
+
+    <TextView
+        style="@style/item_style"
+        android:onClick="volleyClick"
+        android:text="volley" />
+</LinearLayout>
